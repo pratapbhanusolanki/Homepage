@@ -164,7 +164,7 @@ a {
   background-color: transparent;
 }
 a:hover {
-  color: #824027;
+  color: #07382d;
   text-decoration: underline;
 }
 
@@ -10144,6 +10144,17 @@ section.resume-section .resume-section-content {
   font-family: var(--dark);
 }
 
+#name_title{
+  padding-top: min(4%, 4vmax);
+  font-size: calc(20px + 5vmax);}
+
+#about{
+  padding-top: max(4%, 4vmax);}
+
+#mobile_photo{
+  width: min(95%, 285px);
+  margin: auto;}
+
 .video-container {
   overflow: hidden;
   position: relative;
@@ -10164,9 +10175,11 @@ section.resume-section .resume-section-content {
 
 .project-title {
   font-weight: bold;
-  font-size: 20px;
+  font-size: calc(10px + 1vmax);
   font-family: var(--dark);
+  text-align: left;
 }
+
 .title-div{
   height: auto;
   min-height: 20%;
@@ -10187,12 +10200,45 @@ video {
 }
 
 p.projects {
-  padding: 2%;
+  padding: min(2px, 1%);
   text-align: justify;
+  font-size: calc(8px + 0.4vmax);
+  line-height:1.5;
+}
+
+.container_projects {
+  padding: 0;
+}
+
+#projects {
+  padding: min(10px, 2%);
   font-size: calc(8px + 0.4vmax);
   line-height:1.5;
 }
 
 .center { margin: 0 auto; width: 400px; }
 
+.photo-gallery { 
+  padding-left: 0;
+  padding-right: 0;
+  width: max(280px, 80%) }
+
+  div.polaroid {
+    background-color: white;
+    box-shadow: 0 40px 80px 0 rgba(0, 0, 0, 0.4), 0 40px 40px 0 rgba(0, 0, 0, 0.4);
+    border: 2px solid #ddd;
+    border-radius: 1.5%;
+    padding-left: 2%;
+    padding-top: 2%;
+    padding-right: 2%;
+  }
+
+.photo-label{
+  text-align: center;
+  padding: 2% 2%;
+  font-size: calc(8px + 0.6vmax);}
+
 /* * {box-sizing:border-box} */
+#copyright {
+  font-size: calc(1.5*vmin);
+}
